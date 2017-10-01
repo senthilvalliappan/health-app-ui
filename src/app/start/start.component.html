@@ -1,0 +1,58 @@
+<div class="container">
+    <div>
+        <img id="anchor" src="./assets/image/menu.png" style="width: 50px;">
+        <a class="head" href="#" routerLink="/profile"><img src="./assets/image/pic2.jpg"></a>
+        <h2 id="pad">Welcome back Jana,</h2>
+        <h2>Things look <span>alright</span> </h2>
+    </div>
+    <br>
+   
+     <div class="row grid"> 
+     	<div class="col-6 grid1">              
+                <h2>36.75°</h2>
+                <p>Temperature</p>
+                <img class="img-responsive" src="./assets/image/thread1.PNG">
+                <br>
+           </div>
+
+           <div class="col-6 grid2">
+            
+                <h2>537 Cal</h2>
+                <p>Calories Burned </p>
+                <img class="img-responsive" src="./assets/image/thread2.PNG">
+                <br>
+           
+            </div>
+       
+
+        	</div>
+        	<div class="row grid">
+        	<div class="col-6 grid1">
+        		  <h2>3342</h2>
+                <p>Steps</p>
+                <img  class="img-responsive" src="./assets/image/step.PNG">
+                <br>
+        	</div>
+            <div class="col-6 grid2">
+             
+                <h2>87 bpm</h2>
+                <p>Heart rate</p>
+                <img class="img-responsive" src="./assets/image/thread3.PNG">
+                <br>
+            </div>   
+            
+            </div>
+        
+  
+
+    <div class="graph">Moving activity</div>
+    <div class="row">
+        <div class="col-md-12">
+            <div style="display: block;">
+                <canvas baseChart width="800" height="300" [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions" [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+</div>

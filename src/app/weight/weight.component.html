@@ -1,0 +1,21 @@
+<div class="container" style="border:solid;">
+    <div>
+        <a href="#" routerLink="/profile"><img style="width: 50px;padding-top: 50px;" src="../assets/image/back.png"></a>
+        <img style="float: right;width: 50px;padding-top: 50px;" src="../assets/image/dot.PNG">
+    </div>
+
+    <div>
+        <span style="color: grey;">June 4 2015</span>
+        <h1 style="font-size: 300%; ">54.7 kg</h1>
+        <h2 style="color: #979ea9;">Body Weight</h2>
+    </div>
+
+    <div class="row col-12">
+
+        <br>
+        <div class="col-12" style="display: block;">
+            <canvas class="col-md-12 col-" baseChart width="1100px" height="400" [datasets]="lineChartData" [labels]="lineChartLabels" [options]="lineChartOptions" [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" (chartHover)="chartHovered($event)" (chartClick)="chartClicked($event)"></canvas>
+        </div>
+    </div>
+
+</div>

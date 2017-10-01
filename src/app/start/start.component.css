@@ -1,0 +1,67 @@
+.container{
+	 padding: 20px; 
+	 border: solid;
+}
+
+#pad{
+	padding-top: 60px;
+}
+
+
+.grid{
+	 display:-webkit-inline-box;
+	 width: 100%;
+	border-top:1px solid;
+	border-bottom:1px solid;
+}
+
+.grid img{
+	width: 150px;
+	height: 40px;
+
+}
+
+.row{
+	height: auto;
+}
+
+.grid1{
+	    width: 50%;
+    padding-left: 100px;
+    border-right: 1px solid;
+
+}
+.grid2{
+	    width: 50%;
+    padding-left: 100px;
+    
+}
+
+.temperature{
+	height: 150px;
+	width: 50%;
+	
+}
+
+.graph{
+	color:black;
+	font-size: 180%;
+}
+
+p{
+	color: #a7b3b8; 
+}
+
+.head img{
+	height:100px;
+	width: 100px;
+	border-radius: 100%;
+	float: right;
+}
+
+#anchor{
+	float: left;
+}
+.grid1,.grid2 img{
+	position: relative;
+}

@@ -1,1 +1,17 @@
+h1 {
+  color: #596472;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  padding-left: 10px;
+}
+span{
+	color: blue;
+}
+.profile{
+	height: 200px;
+	background-image: url("./assets/image/pic2.jpg");
+	 background-repeat: no-repeat;
+	 background-size: 100% 200px;
+	 opacity: 1;
+}
 /* You can add global styles to this file, and also import other style files */

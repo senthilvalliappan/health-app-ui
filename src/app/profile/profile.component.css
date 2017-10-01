@@ -1,0 +1,94 @@
+h1{
+	font-size: 150%;
+	font-family: sans-serif;
+	color: white;
+
+}
+#pad{
+	padding-left: 20px;
+}
+
+.padd{
+	padding-top: 30px;
+}
+
+.bar{
+	height: 4px; 
+	width: 100%;
+	padding-top: 25px;
+}
+
+.progress_bar{
+	  height:4px;
+	  width:100%; 
+	  align:center;
+}
+
+.back_button{
+	width: 50px;
+	height:50px; 
+	float: right;
+}
+
+.goal57{
+	position: relative; 
+	padding-right: 20px; 
+	padding-bottom: 30px;
+}
+
+h3{
+	color:white; 
+	float: right;
+	padding-top: 100px; 
+}
+
+.grid{
+	background-color: #38527b;     
+	border-style:  solid;
+    border-bottom-color: #a7b3b8;
+    border-top-color: #a7b3b8;
+}
+
+.segment{
+	border-bottom: 1px solid ;
+	border-bottom-color: #a7b3b8;
+}
+
+.grid_1{
+	border-right:1px solid;
+	border-right-color:#a7b3b8;
+}
+
+
+span{
+	color: white;
+	padding-left:20px;
+	padding-top: 30px;
+}
+
+.bar_0{
+	height: 2px; 
+	width: 90%;
+}
+
+
+#meter{
+	color: #93a0b1;
+	font-size: 20px; 
+	padding-right: 110px; 
+	float: right; 
+}
+
+p{
+	text-align:center;
+	color: #a7b3b8;
+}
+
+h2{
+	text-align:center;
+	color: white;
+}
+
+.content{
+	background-color: #38527b;
+}
